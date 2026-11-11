@@ -47,6 +47,13 @@ Patterns distilled from deployment write-ups and community projects — not an o
 6. **Vet plugins too.** Run static scanning and health checks before publishing a plugin internally, and pin versions.
 7. **Roll out in stages**: get it working locally, pilot one scenario in one department, then consider private deployment and company-wide rollout. Community write-ups commonly plan in 1-, 3- and 6-month steps.
 8. **Track known security issues**: early versions had a sandbox escape through the local control API (see [Case studies and articles](#case-studies-and-articles)), and indirect prompt injection succeeds often enough to matter. Upgrade promptly and never expose the Web UI directly to the internet.
+9. **Check for known pitfalls before go-live.** All of these were found and fixed in [dsh-ee](https://github.com/hikariming/dsh-ee), and any platform can hit them:
+   - Review a plugin's dependencies too. If only the package an employee asked for is reviewed, the plugins it depends on get published unreviewed ([#17](https://github.com/hikariming/dsh-ee/pull/17)).
+   - With single sign-on, bind accounts to the identity provider's `sub`. Matching on username or email prefix lets a different identity with the same name sign in to someone else's account ([#41](https://github.com/hikariming/dsh-ee/pull/41)).
+   - Scope tokens by purpose. A key that only calls models must not be exchangeable for a web session with publish rights ([#46](https://github.com/hikariming/dsh-ee/pull/46)).
+   - Tool arguments are written by the model, so treat them as untrusted. An empty or `..` path parameter sends a "get one record" tool to a different endpoint ([#43](https://github.com/hikariming/dsh-ee/pull/43)).
+   - Cap the converted size when ingesting documents into a knowledge base. A crafted file of a few hundred bytes can expand to over 100 MB of text and exhaust server memory ([#47](https://github.com/hikariming/dsh-ee/pull/47)).
+   - Store identifiers from spreadsheets as text. IDs with leading zeros or more than 15 digits are silently altered when stored as numbers ([#19](https://github.com/hikariming/dsh-ee/pull/19)).
 
 ## Enterprise platforms and governance
 
