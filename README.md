@@ -68,7 +68,7 @@ Patterns distilled from deployment write-ups and community projects — not an o
 - [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) ⭐905 — Audits API relays and LLM proxies for prompt injection, model substitution, tool-call rewriting and SSE anomalies.
 - [delta-box/deltabox-lite](https://github.com/delta-box/deltabox-lite) ⭐304 — Lightweight agent sandbox with diff, commit and abort.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) ⭐60 — Counts persistent operations per turn and makes the model stop and ask for confirmation past a threshold.
-- [openguardrails/openguardrails-spec](https://github.com/openguardrails/openguardrails-spec) ⭐60 — Vendor-neutral protocol and benchmark for agent safety and security.
+- [openguardrails/OpenGuardrailsBench](https://github.com/openguardrails/OpenGuardrailsBench) ⭐60 — Reproducible benchmark for AI guardrails across safety, security, privacy and policy, with Chinese and English cases (edition 0.1 is a synthetic pilot).
 - [Eligahyu/dsh-sentinel-scanner](https://github.com/Eligahyu/dsh-sentinel-scanner) — Static security scan for plugins (code execution, credentials, exfiltration, obfuscation, install scripts) with a 0–100 risk score. Useful as a gate when vetting plugins.
 - 🏢 [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) ⭐26 — Plugin health check: manifest, patch format, build pitfalls.
 - [feely0208/dsh-bundle-cn-skills](https://github.com/feely0208/dsh-bundle-cn-skills) — Chinese compliance skills: copy red lines, AI-content labeling, personal-information protection checklist, secret scanning. Fully offline.
@@ -184,7 +184,7 @@ Often the only way to get data out of systems without an API. Prefer running the
 
 ### E-commerce and retail
 
-- 🏢 [lunw/shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) — SHOPLINE developer MCP bridge and SHOPLINE skills.
+- [lunw/shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) — SHOPLINE developer MCP bridge and SHOPLINE skills.
 - [Tulipe1735/dsh-plugin-kefu](https://github.com/Tulipe1735/dsh-plugin-kefu) — E-commerce customer-service desk: product knowledge base, grounded replies, hand-off queue, Taobao / JD open-platform channels.
 - [mirror9933/dsh-pixmart](https://github.com/mirror9933/dsh-pixmart) — Product imagery: hero, detail, ad and white-background images.
 - [shine-233/dsh-waimao](https://github.com/shine-233/dsh-waimao) — Cross-border B2B lead generation: prospect search, WhatsApp review desk, email follow-ups, CRM, quote PDFs.

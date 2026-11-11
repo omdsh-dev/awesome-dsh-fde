@@ -68,7 +68,7 @@
 - [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) ⭐905 — 审计 API 中转和模型代理：检测提示注入、模型偷换、工具调用被改写、SSE 异常等。
 - [delta-box/deltabox-lite](https://github.com/delta-box/deltabox-lite) ⭐304 — 轻量的 Agent 沙箱：可以查看改动、提交或回滚。
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) ⭐60 — 统计每轮里的持久化操作次数，超过阈值就提醒、让模型停下并请求确认。
-- [openguardrails/openguardrails-spec](https://github.com/openguardrails/openguardrails-spec) ⭐60 — 与厂商无关的 Agent 安全协议和评测基准。
+- [openguardrails/OpenGuardrailsBench](https://github.com/openguardrails/OpenGuardrailsBench) ⭐60 — 可复现的 AI 护栏评测基准，覆盖安全、隐私和策略，含中英文用例（0.1 版是合成数据的试点）。
 - [Eligahyu/dsh-sentinel-scanner](https://github.com/Eligahyu/dsh-sentinel-scanner) — 插件安全体检：静态扫描代码执行、凭据、外传、混淆、安装脚本，给出 0～100 的风险分。适合用在插件准入审核里。
 - 🏢 [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) ⭐26 — 插件健康检查：清单格式、patch 格式、构建陷阱。
 - [feely0208/dsh-bundle-cn-skills](https://github.com/feely0208/dsh-bundle-cn-skills) — 中文合规技能集：对外文案红线、AI 生成内容标识、个人信息保护对照、密钥扫描。全部离线运行。
@@ -184,7 +184,7 @@
 
 ### 电商与零售
 
-- 🏢 [lunw/shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) — SHOPLINE 开发者 MCP 桥接和 SHOPLINE 技能。
+- [lunw/shopline-ai-toolkit-dsh](https://github.com/lunw/shopline-ai-toolkit-dsh) — SHOPLINE 开发者 MCP 桥接和 SHOPLINE 技能。
 - [Tulipe1735/dsh-plugin-kefu](https://github.com/Tulipe1735/dsh-plugin-kefu) — 电商客服台：商品知识库、有依据的回复、转人工队列，对接千牛 / 京麦的开放平台。
 - [mirror9933/dsh-pixmart](https://github.com/mirror9933/dsh-pixmart) — 电商图片生成：主图、详情图、广告图、白底图。
 - [shine-233/dsh-waimao](https://github.com/shine-233/dsh-waimao) — 外贸获客：搜客、WhatsApp 客服审核台、邮件跟进、CRM、报价单 PDF。

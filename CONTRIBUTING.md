@@ -11,6 +11,8 @@ Suggest a project by opening an issue or a pull request. Please:
 - Case studies need a public source. Mark self-reported numbers as unverified.
 - Red-team, jailbreak and other offensive tooling is out of scope.
 
+Before opening a pull request, run `python3 scripts/check.py --offline` (format and English/Chinese parity) or, with `GITHUB_TOKEN` set, `python3 scripts/check.py` (also checks that each repository exists, is not archived and was pushed within 90 days). CI runs the same check on every pull request.
+
 ## 中文
 
 通过 issue 或 PR 推荐项目。请注意：
@@ -21,3 +23,5 @@ Suggest a project by opening an issue or a pull request. Please:
 - 收录条件：能安装、在维护（90 天内有提交）、没有归档，并且在企业场景里确实有用。
 - 案例要有公开来源；对方自己报的数据要注明「未核实」。
 - 不收红队、越狱等攻击类工具。
+
+提 PR 前可以先跑 `python3 scripts/check.py --offline`（格式、中英文是否对应）；设了 `GITHUB_TOKEN` 时跑 `python3 scripts/check.py`，还会核对每个仓库是否存在、有没有归档、90 天内有没有提交。每个 PR 的 CI 会跑同样的检查。
