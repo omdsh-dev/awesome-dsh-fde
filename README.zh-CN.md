@@ -56,6 +56,7 @@
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) ⭐66 — 企业 AI 资产治理：MCP 服务、技能、Agent 统一台账，包含生命周期状态、85 个权限点、按部门 × Agent × 技能的成本归集和审计。
 - [aiworkskills/deepseek-harness-server](https://github.com/aiworkskills/deepseek-harness-server) — 让已有业务系统接入 DSH，不改 DSH 源码：OAuth 委托身份、每用户独立运行时、业务 API 对象级授权。
 - [git4oc/DSH-BOOT](https://github.com/git4oc/DSH-BOOT) — 基于 DSH 内核的多租户 Agent 平台：租户隔离、安全审计、审批、配额计费、会话持久化。
+- [mafeis/dsh-enterprise](https://github.com/mafeis/dsh-enterprise) — 企业版客户端插件（要配合 dsh-enterprise-gateway）：登录一次自动配好模型和凭证，之后由服务端下发策略、插件允许清单、强制登录和终端侧的 URL / 文本 DLP 规则。源码开放，用的是自定义许可，不是 OSI 许可。
 - [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) ⭐81 — 服务器级网关：远程访问、自动 HTTPS、子用户权限与配额、强制沙箱、审计日志。
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) ⭐45 — 在浏览器里安全地远程使用 DSH：登录、MFA 两步验证、角色权限。
 - [pointer-a/dsh-server-login](https://github.com/pointer-a/dsh-server-login) ⭐32 — 多租户 DSH 托管：用户注册后经管理员审核，各自获得隔离的 DSH 环境。
@@ -122,6 +123,7 @@
 - [Soren-ABT/dsh-knowledge](https://github.com/Soren-ABT/dsh-knowledge) ⭐89 — 知识库与 RAG：分块、本地 embedding、混合检索、管理面板。
 - [PerryLink/dsh-library](https://github.com/PerryLink/dsh-library) ⭐24 — 本地文档库：语义与关键词混合检索、多样性重排、引用核对；不需要下载模型。
 - [Rxiain/dsh-openviking](https://github.com/Rxiain/dsh-openviking) ⭐19 — 接入 OpenViking 的检索、资源管理、自动召回和会话记忆。
+- [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) ⭐12 — 团队知识库，就是一个普通目录：人上传原始素材，Agent 按每个库自己的约定整理成文；带全文搜索、页面版本历史与回滚、错误页面的反馈闭环。可以离线使用。
 - [chenkezhen480/pinakes-rs](https://github.com/chenkezhen480/pinakes-rs) — 自托管知识服务：由大模型维护的 wiki 加业务图谱，读取时不经过大模型和数据库；提供 HTTP 和 MCP 接口。
 - [mingzeng21/dsh-obsidian](https://github.com/mingzeng21/dsh-obsidian) ⭐40 — 连接本地 Obsidian 库：搜索、读写、移动笔记。
 - [poco-ai/Agentero](https://github.com/poco-ai/Agentero) ⭐1074 — 人与 Agent 协作的研究工作区：带引用的 PDF 问答、资料库、写作。

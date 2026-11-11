@@ -56,6 +56,7 @@ Patterns distilled from deployment write-ups and community projects — not an o
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) ⭐66 — AI asset governance: one ledger for MCP servers, skills and agents, with lifecycle states, 85 permission points, cost attribution by department × agent × skill, and an audit trail.
 - [aiworkskills/deepseek-harness-server](https://github.com/aiworkskills/deepseek-harness-server) — Connect existing business systems to DSH without forking it: OAuth-delegated identity, one runtime per user, object-level authorization on business APIs.
 - [git4oc/DSH-BOOT](https://github.com/git4oc/DSH-BOOT) — Multi-tenant agent platform on the DSH core: tenant isolation, audit, approvals, quota billing, session persistence.
+- [mafeis/dsh-enterprise](https://github.com/mafeis/dsh-enterprise) — Enterprise client plugin (pairs with dsh-enterprise-gateway): one sign-in provisions models and credentials, then server-pushed policy, a plugin allowlist, forced login and on-device URL / text DLP rules. Source-available under its own license, not an OSI one.
 - [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) ⭐81 — Server-grade gateway: remote access, automatic HTTPS, sub-user permissions and quotas, enforced sandboxing, audit log.
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) ⭐45 — Use DSH securely from a remote browser with login, MFA and roles.
 - [pointer-a/dsh-server-login](https://github.com/pointer-a/dsh-server-login) ⭐32 — Multi-tenant DSH hosting: users register, an admin approves them, and each gets an isolated DSH environment.
@@ -122,6 +123,7 @@ Patterns distilled from deployment write-ups and community projects — not an o
 - [Soren-ABT/dsh-knowledge](https://github.com/Soren-ABT/dsh-knowledge) ⭐89 — Knowledge base and RAG: chunking, local embeddings, hybrid search, management panel.
 - [PerryLink/dsh-library](https://github.com/PerryLink/dsh-library) ⭐24 — Local document library with hybrid semantic + keyword search, diversity re-ranking and citation checks; no model downloads.
 - [Rxiain/dsh-openviking](https://github.com/Rxiain/dsh-openviking) ⭐19 — OpenViking retrieval, resource management, auto-recall and session memory.
+- [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) ⭐12 — Team knowledge base kept as plain folders: people upload raw material, an agent distills it into wiki pages under a per-base schema; full-text search, page history with rollback, and a feedback loop for wrong pages. Works offline.
 - [chenkezhen480/pinakes-rs](https://github.com/chenkezhen480/pinakes-rs) — Self-hosted knowledge service: an LLM-maintained wiki plus a business graph, with no LLM or database on the read path; HTTP and MCP.
 - [mingzeng21/dsh-obsidian](https://github.com/mingzeng21/dsh-obsidian) ⭐40 — Search, read, write and move notes in a local Obsidian vault.
 - [poco-ai/Agentero](https://github.com/poco-ai/Agentero) ⭐1074 — Research workspace for humans and agents: PDF Q&A with citations, vault, writing.
